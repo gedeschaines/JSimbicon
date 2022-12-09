@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "classes",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-openjdk-amd64/",
+            "sources" : "/usr/lib/jvm/openjdk-8/src.zip",
+            "default": true,
+        },
+    ],
+    "java.project.referencedLibraries": [
+        "/usr/lib/jvm/java-8-openjdk-amd64/lib/*.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/*.jar",
+    ],
+    "terminal.integrated.env.linux": {
+        "PATH" : "/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/garyd/.local/bin:/home/garyd/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin",
+    },
+}
