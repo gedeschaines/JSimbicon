@@ -31,7 +31,7 @@ The following table describes shell scripts which are provided to compile, debug
 
 | Script File | Description                                                                         |
 | :---------- | :---------------------------------------------------------------------------------- |
-| `jvc_simbicon.sh` | Compiles `./src/*.java` files and places `*.class` files into the `./classes` subdirectory. |
+| `jvc_simbicon.sh` | Creates `./classes` subdirectory as needed, then compiles `./src/*.java` files and places resultant `*.class` files into `./classes` subdirectory. |
 | `jdb_simbicon.sh` | Invokes **appletviewer** with '-debug' option to launch **JSimbicon** using HTML \<applet> tag in `Simbicon.html` file and initializes **jdb** debugging with commands in `jdb.ini` file. |
 | `run_simbicon.sh` | Invokes **appletviewer** to launch **JSimbicon** using HTML \<applet> tag in `Simbicon.html` file. |
 
