@@ -23,7 +23,7 @@ Note: A mouse click within the **JBsimbicon** applet window must occur before an
 
 Visual Studio Code (VS Code) IDE settings and tasks JSON configuation files (`settings.json` and `tasks.json` respectively) are provided to enable compiling, debugging and running the **JSimbicon** applet from within the VS Code IDE. Directory paths in both JSON configuration files may need to be modified to reflect the appropriate paths to JavaSE-1.8 runtime libraries and binaries of OpenJDK-8 package installed by the Linux distribution variant/version running on the local JVM platform. Additionally, the Linux integrated terminal environment PATH variable in `settings.json` must reflect the user's home directory.
 
-When debugging the **JSimbicon** applet from within VS Code IDE by running Terminal "appletviewer debug" task, it's assumed the current working directory it that containing the Java debugger (**jdb**) initialization `jdb.ini` file.
+When debugging the **JSimbicon** applet from within VS Code IDE by running Terminal "appletviewer debug" task, it's assumed the current working directory is that containing the Java debugger (**jdb**) initialization `jdb.ini` file.
 
 ### From Command Shell Terminal ###
 
