@@ -17,7 +17,7 @@ A Java Applet implementation of *SIMBICON: Simple Biped Locomotion Control* for 
 
 On an Ubuntu 18.0 LTS platform, the **JSimbicon** source code files can be compiled into Java class files with the JavaSE-1.8 compatible **javac** compiler provided in the OpenJDK 8 Development Kit (JDK) package. Since most current web browsers are incapable of executing Java Applets, the **JSimbicon** applet must be executed on the local JVM platform using **appletviewer** bundled with OpenJDK packages no newer than JavaSE-1.8. The availability of **appletviewer** requiring an install of OpenJDK-8, possibly concurrently with a newer OpenJDK version installed (i.e., OpenJDK-11), necessitates setting the JVM runtime library and binary paths appropriately to JavaSE-1.8 before compiling **JSimbicon** and subsequently invoking **appletviewer** to debug and/or run the **JSimbicon** applet.
 
-Note: A mouse click within the **JBsimbicon** applet window must occur before any key presses will be recognized by the applet.
+Note: A mouse click within the **JSimbicon** applet window must occur before any key presses will be recognized by the applet.
 
 ### From Visual Studio Code IDE ###
 
